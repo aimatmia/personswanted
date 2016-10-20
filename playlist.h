@@ -2,9 +2,9 @@
 #define PLAYLIST
 #include "mytunez.h"
 
-
-song_list** playlist(song_node** ptrs);
-void add_song(song_node** playlist, char* name, char* artist);
-song_node* search_song(song_node** playlist, char* name);
+//playlist is an array of linked lists
+song_list** library(song_node** ptrs);
+void add_song(song_node** library, char* name, char* artist);
+song_node* search_song(song_node** library, char* name);
 
 #endif

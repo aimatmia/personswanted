@@ -2,13 +2,26 @@
 #include "stdlib.h"
 #include "myTunez.h"
 
-song_list** playlist(song_node** ptrs){ 
+
+//initializes a playlist ptrs.
+song_list** library(song_node** ptrs){ 
   int i=0;
   while(i<26){
     ptrs[i]=NULL;
     i++;
   }
+  return ptrs;
 }
+
+/*
+song_list** library(){
+  song_node *table[26];
+  int i;
+  for (i=0;i<26;i++){
+    table[i]=NULL;
+  }
+  return table;
+  */
 
 void add_song(song_node** playlist, char* name, char* artist){
   song_node* start;
