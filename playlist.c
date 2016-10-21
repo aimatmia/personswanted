@@ -48,7 +48,7 @@ void print_artist(char artist[]){
     printf("songs for %s-- \n", artist);
     song_node* singer = find_artist(artist);
     while(singer && strcmp(artist, singer->artist)){
-        if (strcmp(singer->artist, artist)) printf("%s  ->  %s\n", singer->artist, singer->name);
+        if (strcmp(singer->artist, artist)) print_song(singer);
         singer=singer->next;
     }
 }
@@ -63,6 +63,21 @@ void print_library(){
 
 void shuffle(){
     printf("shuffle MS playlist up! \n");
+    song_node* copy_node = NULL;
+    int i;
+    //copy all songs into flat 1-D nodes
+    for (i=0;i<26;i++) {
+        song_node* curr = table[i];
+        while(curr) {
+            copy_node = insert_front(copy_node, curr->name, curr->artist);
+            curr=curr->next;
+        }
+    }
+    while (copy_node) {
+        song_node* rand_node = random_song(copy_node));
+        print_song(rand_node);
+        remove_song(rand_node);
+    }
 }
 
 
