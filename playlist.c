@@ -54,7 +54,7 @@ void print_artist(char artist[]){
 }
 
 void print_library(){
-    printf("Mia & Stiven's playlist~ :) \n");
+    //Mia & Stiven's playlist~ :)
     int i;
     for (i=0;i<26;i++){
         print_all(table[i]);
