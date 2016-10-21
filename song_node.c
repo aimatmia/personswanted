@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "myTunez.h"
+#include "song_node.h"
 
 //Makes song_node with name and artist
 //Places new song_node in front of rt
@@ -61,20 +61,20 @@ song_node* search_song(song_node* song, char name[]){
 //if the song is not found, returns null
 song_node* find_song(song_node* rt, char name[]){
   if (!rt) return rt;
-  if (strcmp(rt->name,name))
-    return rt;
+  if (strcmp(rt->name,name)) //if not the song
+    return find_song(rt->next,name); //move on
   else
-    return find_song(rt->next,name);
+    return rt; // if found the song
 }
 
 //returns the first song with artist
 //if the artist is not found, returns null
 song_node* find_artist(song_node* rt, char artist[]){
   if (!rt) return rt;
-  if (strcmp(rt->artist, artist))
-    return rt;
+  if (strcmp(rt->artist, artist)) //if not the artist
+    return find_artist(rt->next, artist);//move on
   else
-    return find_artist(rt->next, artist);
+    return rt; //if found artist
 }
 
 int num_song(song_node* rt){
@@ -92,7 +92,7 @@ song_node* random_song(song_node* rt){
   return (rt+p*sizeof(song_node));
 }
 
-song_node* remove_node(song_node* rt, char name[], char artist[]){
+song_node* remove_song(song_node* rt, char name[], char artist[]){
     if (!rt) return rt;
     song_node* start = rt;
     song_node* prev = rt;
