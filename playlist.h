@@ -10,7 +10,8 @@ song_node* table[26];
 void init_lib(){
   int i;
   for (i=0;i<26;i++){
-    table[i]=NULL;
+//    table[i]=(song_node*)malloc(sizeof(song_node*));
+      table[i]=NULL;
   }
 }
 
@@ -25,3 +26,5 @@ song_node* find_song(char name[]);
 void shuffle();
 
 #endif
+
+　
