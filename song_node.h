@@ -1,6 +1,6 @@
 typedef struct song_node{
-  char name[256];
-  char artist[256];
+  char name[100];
+  char artist[100];
   struct song_node *next;
 } song_node;
 
