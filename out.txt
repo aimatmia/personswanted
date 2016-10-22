@@ -1,0 +1,224 @@
+
+ Mia & Steven's Playlist~ 
+A list
+Sk8er Boi - Avril Lavigne
+B list
+Locked Out of Heaven - Bruno Mars
+, Runaway Baby - Bruno Mars
+D list
+Half Life - Duncan Sheikh
+E list
+Bring Me To Life - Evanescence
+, Surrender - Evanescence
+L list
+In The End - LINKIN Park
+N list
+Contagious - Night Riots
+O list
+Crystals - Of Monsters and Men
+, Counting Stars - One Republic
+, Fireflies - Owl City
+, Tokyo - Owl City
+P list
+Death of a Bachelor - Panic! at the Disco
+, Emperor's New Clothes - Panic! at the Disco
+, Big Honkin Hole in My Heart - Phineas and Ferb
+T list
+Red Flag - The Moth & The Flame
+, Please, Please, Please Let Me Get What I Want - The Smiths
+　
+ Skimming for a song by Panic! at the Disco : 
+Death of a Bachelor - Panic! at the Disco
+　
+ Skimming for a song by Phineas and Ferb : 
+Big Honkin Hole in My Heart - Phineas and Ferb
+　
+ Skimming for a song by No Doubt : 
+No song found
+　
+ Printing songs that begin with the letter 'P': 
+Death of a Bachelor - Panic! at the Disco
+, Emperor's New Clothes - Panic! at the Disco
+, Big Honkin Hole in My Heart - Phineas and Ferb
+　
+　
+ Printing all songs by Evanescence: 
+Bring Me To Life - Evanescence
+Surrender - Evanescence
+　
+ Shuffled playlist of 9 random songs : 
+shuffle MS playlist up! 
+ - 
+, Sk8er Boi - Avril Lavigne
+, Locked Out of Heaven - Bruno Mars
+, Half Life - Duncan Sheikh
+, Bring Me To Life - Evanescence
+, In The End - LINKIN Park
+, Contagious - Night Riots
+, Crystals - Of Monsters and Men
+, Death of a Bachelor - Panic! at the Disco
+　
+ === Testing delete_song === : 
+--------------------------------------------------------------------- 
+Original Playlist: 
+A list
+Sk8er Boi - Avril Lavigne
+B list
+Locked Out of Heaven - Bruno Mars
+, Runaway Baby - Bruno Mars
+D list
+Half Life - Duncan Sheikh
+E list
+Bring Me To Life - Evanescence
+, Surrender - Evanescence
+L list
+In The End - LINKIN Park
+N list
+Contagious - Night Riots
+O list
+Crystals - Of Monsters and Men
+, Counting Stars - One Republic
+, Fireflies - Owl City
+, Tokyo - Owl City
+P list
+Death of a Bachelor - Panic! at the Disco
+, Emperor's New Clothes - Panic! at the Disco
+, Big Honkin Hole in My Heart - Phineas and Ferb
+T list
+Red Flag - The Moth & The Flame
+, Please, Please, Please Let Me Get What I Want - The Smiths
+　
+ good-bye to: 'In The End' 
+　
+ good-bye to : *LINKIN Park - In The End*Goodbye to  In The End - LINKIN Park
+A list
+Sk8er Boi - Avril Lavigne
+B list
+Locked Out of Heaven - Bruno Mars
+, Runaway Baby - Bruno Mars
+D list
+Half Life - Duncan Sheikh
+E list
+Bring Me To Life - Evanescence
+, Surrender - Evanescence
+N list
+Contagious - Night Riots
+O list
+Crystals - Of Monsters and Men
+, Counting Stars - One Republic
+, Fireflies - Owl City
+, Tokyo - Owl City
+P list
+Death of a Bachelor - Panic! at the Disco
+, Emperor's New Clothes - Panic! at the Disco
+, Big Honkin Hole in My Heart - Phineas and Ferb
+T list
+Red Flag - The Moth & The Flame
+, Please, Please, Please Let Me Get What I Want - The Smiths
+A list
+Sk8er Boi - Avril Lavigne
+B list
+Locked Out of Heaven - Bruno Mars
+, Runaway Baby - Bruno Mars
+D list
+Half Life - Duncan Sheikh
+E list
+Bring Me To Life - Evanescence
+, Surrender - Evanescence
+N list
+Contagious - Night Riots
+O list
+Crystals - Of Monsters and Men
+, Counting Stars - One Republic
+, Fireflies - Owl City
+, Tokyo - Owl City
+P list
+Death of a Bachelor - Panic! at the Disco
+, Emperor's New Clothes - Panic! at the Disco
+, Big Honkin Hole in My Heart - Phineas and Ferb
+T list
+Red Flag - The Moth & The Flame
+, Please, Please, Please Let Me Get What I Want - The Smiths
+　
+ good-bye to: 'Please, Please, Please Let Me Get What I Want' 
+　
+ good-bye to : *The Smiths - Please, Please, Please Let Me Get What I Want*Goodbye to  Please, Please, Please Let Me Get What I Want - The Smiths
+A list
+Sk8er Boi - Avril Lavigne
+B list
+Locked Out of Heaven - Bruno Mars
+, Runaway Baby - Bruno Mars
+D list
+Half Life - Duncan Sheikh
+E list
+Bring Me To Life - Evanescence
+, Surrender - Evanescence
+N list
+Contagious - Night Riots
+O list
+Crystals - Of Monsters and Men
+, Counting Stars - One Republic
+, Fireflies - Owl City
+, Tokyo - Owl City
+P list
+Death of a Bachelor - Panic! at the Disco
+, Emperor's New Clothes - Panic! at the Disco
+, Big Honkin Hole in My Heart - Phineas and Ferb
+T list
+Red Flag - The Moth & The Flame
+A list
+Sk8er Boi - Avril Lavigne
+B list
+Locked Out of Heaven - Bruno Mars
+, Runaway Baby - Bruno Mars
+D list
+Half Life - Duncan Sheikh
+E list
+Bring Me To Life - Evanescence
+, Surrender - Evanescence
+N list
+Contagious - Night Riots
+O list
+Crystals - Of Monsters and Men
+, Counting Stars - One Republic
+, Fireflies - Owl City
+, Tokyo - Owl City
+P list
+Death of a Bachelor - Panic! at the Disco
+, Emperor's New Clothes - Panic! at the Disco
+, Big Honkin Hole in My Heart - Phineas and Ferb
+T list
+Red Flag - The Moth & The Flame
+　
+ === Setting the Playlist Free === 
+------------------------------------------------- 
+Original M&S Playlist: 
+A list
+Sk8er Boi - Avril Lavigne
+B list
+Locked Out of Heaven - Bruno Mars
+, Runaway Baby - Bruno Mars
+D list
+Half Life - Duncan Sheikh
+E list
+Bring Me To Life - Evanescence
+, Surrender - Evanescence
+N list
+Contagious - Night Riots
+O list
+Crystals - Of Monsters and Men
+, Counting Stars - One Republic
+, Fireflies - Owl City
+, Tokyo - Owl City
+P list
+Death of a Bachelor - Panic! at the Disco
+, Emperor's New Clothes - Panic! at the Disco
+, Big Honkin Hole in My Heart - Phineas and Ferb
+T list
+Red Flag - The Moth & The Flame
+　
+ Freed All the Songs 
+　
+ Playlist empty, no songs left :( 
+How 'bout you add some more songs?~
+　
