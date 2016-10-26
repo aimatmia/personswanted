@@ -1,4 +1,5 @@
-#include <stdio.h> #include <stdlib.h>
+#include <stdio.h> 
+#include <stdlib.h>
 #include <string.h>
 #include "song_node.h"
 
@@ -54,13 +55,13 @@ int main() {
 	printf("\n Skimming for a song by No Doubt : \n");
 	print_list(find_artist( "No Doubt"));
 
-　
+
 	//Print by letter
 	printf("\n Printing songs that begin with the letter 'P': \n");
 	char letter = 'P';
 	print_letter( letter);
 
-　
+
 	//Printing by artist
 	printf("\n Printing all songs by Evanescence: \n");
 	print_artist( "Evanescence");
@@ -77,24 +78,23 @@ int main() {
 	print_library();
   
 
-	printf("\n good-bye to: 'In The End' \n");
+
 	delete_song( "In The End", "LINKIN Park");
 	print_library();
 
-　
-	printf("\n good-bye to: 'Please, Please, Please Let Me Get What I Want' \n");
+
 	delete_song( "Please, Please, Please Let Me Get What I Want", "The Smiths");
 	print_library();
 
-　
-　
+
+
 	printf("\n === Setting the Playlist Free === \n");
 	printf("------------------------------------------------- \n");
 
 	printf("Original M&S Playlist: \n");
 	print_library();
 
-　
+
 	printf("\n Freed All the Songs \n");
 	delete_lib();
   
