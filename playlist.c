@@ -1,7 +1,8 @@
 #include "stdio.h"
 #include "stdlib.h"
+#include "string.h"
 #include "playlist.h"
-	
+
 //----------------+---------------------
 void add_song(char name[], char artist[]){
   char letter=artist[0];
@@ -10,8 +11,7 @@ void add_song(char name[], char artist[]){
 //      table[pos]=(song_node*)malloc(sizeof(song_node*));
   table[pos]=insert_order(table[pos], name, artist);
 }
-	 
-	 
+
 //---------------SEARCH----------------- 
 song_node* find_song(char name[]){
     int i;
@@ -22,14 +22,14 @@ song_node* find_song(char name[]){
             continue;
     return NULL;
 }
-	 		
+	
 song_node* find_artist(char artist[]){
   char letter=artist[0];
   int pos=letter-'A';
   return search_artist(table[pos], artist);
 }
-	
-	
+
+
 //---------------PRINT--------------
 void print_letter(char letter){
     print_all(table[letter-'A']);
@@ -75,7 +75,7 @@ void shuffle(int n){
     print_all( shuffle);
 }
 
-　
+
 //-------------DELETION-------------
 void delete_song(char name[], char artist[]){
     printf("\n good-bye to : *%s - %s*", artist, name);
@@ -91,5 +91,4 @@ void delete_lib(){
     }
 }
 
-　
-　
+
