@@ -4,7 +4,7 @@
 
 //playlist is an array of linked lists
 
-　
+
 song_node* table[26];
 
 void init_lib(){
@@ -27,4 +27,3 @@ void shuffle();
 
 #endif
 
-　
